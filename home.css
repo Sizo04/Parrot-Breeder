@@ -1,0 +1,184 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: crimson;
+  }
+
+nav{
+font-family: 'Open Sans', sans-serif;
+height: 70px;
+width: 100%;
+background-color: black;
+}
+
+.logo {
+    
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 200px;
+}
+.logo a{
+color: white;
+}
+
+.logo a:hover{
+    color: crimson;
+    }
+
+nav ul{
+    float: right;
+    padding: 0 200px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: crimson;
+}
+
+nav a:hover{
+ color: white;  
+}
+
+
+.hero{
+    height: 91.8%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    background-image: url(/images/3.jpg);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: center;
+    
+}
+
+.text{
+    color: white;
+    padding-top: 15%;
+}
+
+.text h3{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 70px;
+}
+
+.text h1{
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.btn{
+    padding-top: 20px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: larger;
+    border: 2px solid crimson;
+    border-radius: 10px;
+}
+
+.btn a:hover{
+    background-color: crimson;
+    
+}
+
+.breeds{
+    margin-top: 48%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.breeds h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.line{
+    max-width: 120px;
+    margin: auto;
+    background-color: crimson;
+    height: 1px
+    
+
+
+}
+
+
+.breeds img{
+ max-width: 500px;
+ max-height: 500px;
+ object-fit: cover;
+ box-shadow: 5px 5px rgba(0, 0, 0, 0.74);
+
+}
+
+.content1{
+    margin: 50px 5%;
+    display: flex;
+    padding: 15px;
+    
+}
+
+.content1 p{
+    word-spacing: 5px;
+    font-size: larger;
+    line-height: 30px;
+    max-width: 50%;
+    padding-right: 230px;
+    text-align: justify;
+    max-height: 500px;
+}
+
+.content2{
+    margin: 50px 5%;
+    display: flex;
+    padding: 15px;
+    
+
+}
+
+.content2 p{
+    word-spacing: 5px;
+    font-size: larger;
+    line-height: 30px;
+    max-width: 50%;
+    padding-left: 230px;
+    text-align: justify;
+    max-height: 500px;
+}
+
