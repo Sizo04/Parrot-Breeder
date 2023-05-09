@@ -82,12 +82,14 @@ nav a:hover{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.534);
     text-align: center;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text{
     color: white;
-    padding-top: 15%;
+    
 }
 
 .text h3{
